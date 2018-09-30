@@ -122,7 +122,7 @@ fprintf('RSquared for %s is %f\n',material,rsq)
 title1 = sprintf('Linear Fit and .2 Offset for %s',material);
 figure('Visible','on','Name',title1)
 plot(strain,stress,'.',lin_strain,linfit,percent,linfit,'LineWidth',2,'MarkerSize',8)
-linear = sprintf('sigma=%.2fE+%.2f',p,q);
+linear = sprintf('Linear Fit, \sigma',p);
 title(title1)
 xlabel('Strain(\DeltaL/L_o)')
 ylabel('Stress(MPa)')
